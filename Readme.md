@@ -55,5 +55,5 @@
 
 
 <p align="center">
-  <img width="800" height="500" src="https://user-images.githubusercontent.com/80872528/130394320-fb30de93-226d-49b1-bfc9-4e931bbc3817.png">
+  <img width="800" height="200" src="https://user-images.githubusercontent.com/80872528/130394320-fb30de93-226d-49b1-bfc9-4e931bbc3817.png">
 </p>
