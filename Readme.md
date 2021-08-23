@@ -2,6 +2,7 @@
 
   * Publishing rgb, depth image with ROS
   * 외부 Object 올리기 
+  * Pose control with ROS
   
 ## Publishing rgb, depth image with ROS 
 
@@ -57,3 +58,25 @@
 <p align="center">
   <img width="800" height="200" src="https://user-images.githubusercontent.com/80872528/130394320-fb30de93-226d-49b1-bfc9-4e931bbc3817.png">
 </p>
+
+
+## Pose control with ROS
+
+* Omniverse
+1. Create - Isaac - ROS - Teleport 클릭하면 ROS_Teleport 생김
+2. Property - Add Target 클릭하여 ROS로 움직이고자 하는 대상 선택
+3. 시뮬레이션 실행
+
+* Python script
+1. /.local/share/ov/pkg/isaac_sim-2021.1.1/ros_samples/teleport/ros_pose_client.py main 문의 "/Cubes" 부분에 2번에서 선택한 대상의 경로 입력 (ex. "/World/Capsule")
+2. np.array 이용하여 원하는 pose 입력
+
+* Terminal 1
+<pre>
+$ conda create -n omni python=3.6
+$ conda activate omni
+$ pip install -r requirements.txt  (게시된 txt 파일 다운로드)
+$ cd .local/share/ov/pkg/isaac_sim-2021.1.1
+$ python ros_mples/teleport/ros_pose_client.py
+</pre>
+
