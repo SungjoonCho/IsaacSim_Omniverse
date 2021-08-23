@@ -45,7 +45,7 @@
   <img width="800" height="500" src="https://user-images.githubusercontent.com/80872528/130381555-2a767427-9979-43b5-8e59-c16c8d1e604f.png">
 </p>
   
-## 외부 Object 올리기
+## [외부 Object 올리기](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/ext_omni_isaac_urdf.html)
 
 ### 순서
 
