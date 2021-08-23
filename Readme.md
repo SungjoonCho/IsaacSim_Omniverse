@@ -1,7 +1,7 @@
 ## IsaacSim projects (Simulator : Omniverse)
 
   * Publishing rgb, depth image with ROS
-  
+  * 외부 Object 올리기 
   
 ## Publishing rgb, depth image with ROS 
 
@@ -45,4 +45,15 @@
   <img width="800" height="500" src="https://user-images.githubusercontent.com/80872528/130381555-2a767427-9979-43b5-8e59-c16c8d1e604f.png">
 </p>
   
+## 외부 Object 올리기
 
+### 순서
+
+1. 외부에서 URDF 파일 다운로드
+2. /.local/share/ov/pkg/isaac_sim-2021.1.1/exts/omni.isaac.urdf/data/urdf/ 에 임의의 새 폴더 만들고 urdf 파일 저장
+3. 아래 그림과 같이 [Built In URDF Files] - [custom] - 원하는 urdf 파일 우클릭 - Convert URDF to USD
+
+
+<p align="center">
+  <img width="800" height="500" src="https://user-images.githubusercontent.com/80872528/130394320-fb30de93-226d-49b1-bfc9-4e931bbc3817.png">
+</p>
