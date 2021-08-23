@@ -77,6 +77,6 @@ $ conda create -n omni python=3.6
 $ conda activate omni
 $ pip install -r requirements.txt  (게시된 txt 파일 다운로드)
 $ cd .local/share/ov/pkg/isaac_sim-2021.1.1
-$ python ros_mples/teleport/ros_pose_client.py
+$ python ros_samples/teleport/ros_pose_client.py
 </pre>
 
