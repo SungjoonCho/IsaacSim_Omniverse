@@ -1,8 +1,8 @@
 ## IsaacSim projects (Simulator : Omniverse)
 
-  * Publishing rgb, depth image with ROS
-  * 외부 Object 올리기 
-  * Pose control with ROS
+  * [Publishing rgb, depth image with ROS](https://github.com/SungjoonCho/IsaacSim_Omniverse#user-content-publishing-rgb-depth-image-with-ros)
+  * [외부 Object 올리기](https://github.com/SungjoonCho/IsaacSim_Omniverse#user-content-%EC%99%B8%EB%B6%80-object-%EC%98%AC%EB%A6%AC%EA%B8%B0) 
+  * [Pose control with ROS](https://github.com/SungjoonCho/IsaacSim_Omniverse#pose-control-with-ros)
   
 ## Publishing rgb, depth image with ROS 
 
@@ -70,6 +70,7 @@
 * Python script
 1. /.local/share/ov/pkg/isaac_sim-2021.1.1/ros_samples/teleport/ros_pose_client.py main 문의 "/Cubes" 부분에 2번에서 선택한 대상의 경로 입력 (ex. "/World/Capsule")
 2. np.array 이용하여 원하는 pose 입력
+3. 현재 script의 cube_pos_vec의 경우 0~1 사이의 임의의 수 3개가 x y z로 들어감
 
 * Terminal 1
 <pre>
