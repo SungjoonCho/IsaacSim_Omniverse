@@ -45,7 +45,7 @@
   1. Create - Shape 원하는 물체 배치
   2. Create - Camera 원하는 개수만큼 원하는 위치에 배치, Camera Property에서 parameter 수정 가능 
   3. Create - Isaac - ROS - Camera 를 2번에서 추가한 카메라 개수만큼 추가
-  4. ROS_Camera - Property의 Raw USD Properties에서 depthEnabled 체크
+  4. ROS_Camera - Property의 Raw USD Properties에서 depthEnabled 체크, prim에 add target - publish하고자 하는 camera 선택
   5. depthPubTopic, rgbPubTopic 수정 (센서 토픽들이 중복되지 않도록 주의)
   6. 시뮬레이션 실행
   7. Rviz에서 확인
