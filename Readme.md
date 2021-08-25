@@ -1,10 +1,11 @@
 ## IsaacSim projects (Simulator : Omniverse)
-
+  * 개요 및 개발 환경
   * [Publishing rgb, depth image with ROS](https://github.com/SungjoonCho/IsaacSim_Omniverse#user-content-publishing-rgb-depth-image-with-ros)
   * [외부 Object 올리기](https://github.com/SungjoonCho/IsaacSim_Omniverse#user-content-%EC%99%B8%EB%B6%80-object-%EC%98%AC%EB%A6%AC%EA%B8%B0) 
   * [Pose control with ROS](https://github.com/SungjoonCho/IsaacSim_Omniverse#pose-control-with-ros)
-  
-## Publishing rgb, depth image with ROS 
+  * Omniverse Reference
+
+## 개요 및 개발 환경
 
 ### 개요
 
@@ -25,7 +26,20 @@
 ### Omniverse 실행 
   
 * Omniverse Launcher 아이콘 클릭 - LAUNCH
-  
+
+### 추가 Asset 다운로드(선택)
+
+* Local에 Nucleus 설치 후 nucleus 서버 통해서 asset 다운로드 가능
+
+1. [Nucleus 설치](https://docs.omniverse.nvidia.com/prod_nucleus/prod_nucleus/installation/workstation.html#installing-using-omniverse-launcher)
+2. [asset 저장할 디렉토리 생성, asset 다운로드](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/setup.html#isaac-sim-setup-nucleus-add-assets)
+   
+   localhost 디렉토리에 바로 생성이 안돼서 User 폴더 내부에 저장함
+   
+3. [Asset 파일 설명](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/assets.html)
+
+## Publishing rgb, depth image with ROS 
+
 ### ROS publish 제작
 
   1. Create - Shape 원하는 물체 배치
